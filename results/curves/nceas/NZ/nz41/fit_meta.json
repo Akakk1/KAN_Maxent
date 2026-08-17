@@ -1,0 +1,57 @@
+{
+  "region": "NZ",
+  "species_id": "nz41",
+  "taxon_group": "plant",
+  "n_po": 20,
+  "n_bg": 50000,
+  "n_PA": 19120,
+  "runtime_s": 8.602138408001338,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "deficit",
+    "hillshade",
+    "mas",
+    "mat",
+    "r2pet",
+    "slope",
+    "sseas",
+    "tseas",
+    "vpd"
+  ],
+  "categorical": [
+    "age",
+    "toxicats"
+  ],
+  "scaler_mean": [
+    35.99878048780488,
+    172.04428228708517,
+    1392.4959216313475,
+    100.40287884846062,
+    47.305077968812476,
+    12.227748900439824,
+    -0.11283486605357856,
+    -1.0240903638544583,
+    32.64920031987205
+  ],
+  "scaler_scale": [
+    56.69906899361134,
+    37.961190148777966,
+    92.10208013988512,
+    28.953509311106746,
+    41.38271376558668,
+    10.891491167814458,
+    33.676484688160954,
+    125.21658054189625,
+    11.543821136767532
+  ],
+  "sample_reason": "reexport"
+}

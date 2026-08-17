@@ -1,0 +1,47 @@
+{
+  "region": "CAN",
+  "species_id": "can08",
+  "taxon_group": "bird",
+  "n_po": 322,
+  "n_bg": 50000,
+  "n_PA": 14571,
+  "runtime_s": 5.765247638999426,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "alt",
+    "asp2",
+    "ontprec",
+    "ontslp",
+    "onttemp",
+    "watdist"
+  ],
+  "categorical": [
+    "ontveg"
+  ],
+  "scaler_mean": [
+    259.7443464091252,
+    0.09083033806987004,
+    758.0612455784747,
+    0.3432794410348754,
+    -11.723858352211757,
+    407239.1215199014
+  ],
+  "scaler_scale": [
+    127.09161548009325,
+    0.7573957604581151,
+    146.52912371009776,
+    0.45280402475322307,
+    31.512472820119797,
+    242066.34976270248
+  ],
+  "sample_reason": "reexport"
+}

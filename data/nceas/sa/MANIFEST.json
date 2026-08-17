@@ -1,0 +1,62 @@
+{
+  "region": "SA",
+  "disdat_version": "1.1.0",
+  "n_species": 30,
+  "species_ids": [
+    "sa01",
+    "sa02",
+    "sa03",
+    "sa04",
+    "sa05",
+    "sa06",
+    "sa07",
+    "sa08",
+    "sa09",
+    "sa10",
+    "sa11",
+    "sa12",
+    "sa13",
+    "sa14",
+    "sa15",
+    "sa16",
+    "sa17",
+    "sa18",
+    "sa19",
+    "sa20",
+    "sa21",
+    "sa22",
+    "sa23",
+    "sa24",
+    "sa25",
+    "sa26",
+    "sa27",
+    "sa28",
+    "sa29",
+    "sa30"
+  ],
+  "n_po_total": 2220,
+  "n_bg_total": 50000,
+  "groups": [
+    "plant"
+  ],
+  "multi_group_pa": false,
+  "presence_range": [
+    17,
+    216
+  ],
+  "covariates": {
+    "continuous": [
+      "sabio12",
+      "sabio15",
+      "sabio17",
+      "sabio18",
+      "sabio2",
+      "sabio4",
+      "sabio5",
+      "sabio6"
+    ],
+    "categorical": []
+  },
+  "estimand": "global_conditional_density",
+  "integration_support": "full_background_50k"
+}

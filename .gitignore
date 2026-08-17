@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# Tests / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.obsidian/
+.agents/
+
+# Logs
+*.log
+*.bak
+*~
+
+# Large external / lab-only
+*.tif
+*.tiff
+*.nc
+data/History/
+data/wc2.1/
+data/worldclim/
+data_external/
+paper/
+
+# Local experiment dumps (frozen tables live under results/)
+outputs/
+output/
+
+# Accidental lab dumps
+docs/plans/
+docs/reports/
+MS_*.md
+SI/versions/
+**/_archive*/
+**/_archive_legacy/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Lab/process docs (not for public package)
+CHANGELOG.md

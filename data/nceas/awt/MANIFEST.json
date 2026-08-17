@@ -1,0 +1,73 @@
+{
+  "region": "AWT",
+  "disdat_version": "1.1.0",
+  "n_species": 40,
+  "species_ids": [
+    "awt01",
+    "awt02",
+    "awt03",
+    "awt04",
+    "awt05",
+    "awt06",
+    "awt07",
+    "awt08",
+    "awt09",
+    "awt10",
+    "awt11",
+    "awt12",
+    "awt13",
+    "awt14",
+    "awt15",
+    "awt16",
+    "awt17",
+    "awt18",
+    "awt19",
+    "awt20",
+    "awt21",
+    "awt22",
+    "awt23",
+    "awt24",
+    "awt25",
+    "awt26",
+    "awt27",
+    "awt28",
+    "awt29",
+    "awt30",
+    "awt31",
+    "awt32",
+    "awt33",
+    "awt34",
+    "awt35",
+    "awt36",
+    "awt37",
+    "awt38",
+    "awt39",
+    "awt40"
+  ],
+  "n_po_total": 3806,
+  "n_bg_total": 50000,
+  "groups": [
+    "bird",
+    "plant"
+  ],
+  "multi_group_pa": true,
+  "presence_range": [
+    9,
+    265
+  ],
+  "covariates": {
+    "continuous": [
+      "bc04",
+      "bc05",
+      "bc06",
+      "bc12",
+      "bc15",
+      "slope",
+      "topo",
+      "tri"
+    ],
+    "categorical": []
+  },
+  "estimand": "global_conditional_density",
+  "integration_support": "full_background_50k"
+}

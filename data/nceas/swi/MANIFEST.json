@@ -1,0 +1,67 @@
+{
+  "region": "SWI",
+  "disdat_version": "1.1.0",
+  "n_species": 30,
+  "species_ids": [
+    "swi01",
+    "swi02",
+    "swi03",
+    "swi04",
+    "swi05",
+    "swi06",
+    "swi07",
+    "swi08",
+    "swi09",
+    "swi10",
+    "swi11",
+    "swi12",
+    "swi13",
+    "swi14",
+    "swi15",
+    "swi16",
+    "swi17",
+    "swi18",
+    "swi19",
+    "swi20",
+    "swi21",
+    "swi22",
+    "swi23",
+    "swi24",
+    "swi25",
+    "swi26",
+    "swi27",
+    "swi28",
+    "swi29",
+    "swi30"
+  ],
+  "n_po_total": 35105,
+  "n_bg_total": 50000,
+  "groups": [
+    "tree"
+  ],
+  "multi_group_pa": false,
+  "presence_range": [
+    36,
+    5822
+  ],
+  "covariates": {
+    "continuous": [
+      "bcc",
+      "ccc",
+      "ddeg",
+      "nutri",
+      "pday",
+      "precyy",
+      "sfroyy",
+      "slope",
+      "sradyy",
+      "swb",
+      "topo"
+    ],
+    "categorical": [
+      "calc"
+    ]
+  },
+  "estimand": "global_conditional_density",
+  "integration_support": "full_background_50k"
+}

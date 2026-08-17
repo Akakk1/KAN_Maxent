@@ -1,0 +1,62 @@
+{
+  "region": "NSW",
+  "species_id": "nsw49",
+  "taxon_group": "sr",
+  "n_po": 110,
+  "n_bg": 50000,
+  "n_PA": 1008,
+  "runtime_s": 9.790311497999937,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "cti",
+    "disturb",
+    "mi",
+    "rainann",
+    "raindq",
+    "rugged",
+    "soildepth",
+    "soilfert",
+    "solrad",
+    "tempann",
+    "topo"
+  ],
+  "categorical": [
+    "vegsys"
+  ],
+  "scaler_mean": [
+    1331.099560965875,
+    3.134603871482738,
+    76.95567750947914,
+    1168.4197964478149,
+    180.346637397725,
+    34.33687886649371,
+    1045.158291758132,
+    2.2625424067052484,
+    87.44148872480542,
+    159.51654360407105,
+    0.21127519457194172
+  ],
+  "scaler_scale": [
+    204.01519366817365,
+    0.9564358028420261,
+    11.890131441596198,
+    322.04799595324914,
+    46.527213742143374,
+    28.8947698720717,
+    78.8510758698362,
+    0.9988417968279641,
+    5.500657504903648,
+    25.117421225897342,
+    15.173508716950668
+  ],
+  "sample_reason": "reexport"
+}

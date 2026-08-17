@@ -1,0 +1,26 @@
+{
+  "run_id": "deepkan_fair_six_3seed_20260715",
+  "protocol": "fair_residual_lbfgs_nosilu_warmstart",
+  "n_rows": 1356,
+  "n_species": 225,
+  "regions": [
+    "AWT",
+    "CAN",
+    "NSW",
+    "NZ",
+    "SA",
+    "SWI"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "mean_delta_species": -0.0053696829943446775,
+  "ci": [
+    -0.00979888050072204,
+    -0.0008560345661948931
+  ],
+  "n_delta_gt_0.01": 50,
+  "created_unix": 1784107633.345379
+}

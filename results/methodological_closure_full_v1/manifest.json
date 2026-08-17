@@ -1,0 +1,38 @@
+{
+  "protocol": "methodological_closure_v1",
+  "plan": "docs/plans/Plan_Methodological_Closure_v1.md",
+  "regions": [
+    "AWT",
+    "CAN",
+    "NSW",
+    "NZ",
+    "SA",
+    "SWI"
+  ],
+  "stages": [
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "seeds_deep": [
+    0,
+    1,
+    2
+  ],
+  "lambda_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "k_folds": 5,
+  "min_po_for_cv": 30,
+  "workers_bcd": 12,
+  "blas_threads_per_worker": 1,
+  "n_cpu": 16,
+  "cpu_reserve_frac": 0.2,
+  "created_unix": 1786205457.0405192,
+  "outdir": "/mnt/x/MachineLearning/Baiology/SDM/KAN-Maxent/outputs/methodological_closure_full_v1"
+}

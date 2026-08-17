@@ -1,0 +1,6 @@
+model_label,model,n_paired,mean_auc_random,mean_auc_tgb,mean_delta_tgb_minus_random,ci_lo,ci_hi
+BCE,additive_kan_bce,12,0.656453,0.646874,-0.009579,-0.05064,0.02956
+B-spline IPP,additive_kan_ipp,12,0.653205,0.652179,-0.001026,-0.043198,0.043177
+同基 GAM-IPP,gam_ipp_same_basis,12,0.65318,0.651735,-0.001445,-0.043639,0.042904
+"maxnet（背景上限 10,000）",maxnet_bg10k,5,0.631054,0.692002,0.060948,0.010502,0.113487
+"maxnet（背景上限 50,000）",maxnet_bg50k,5,0.636347,0.692002,0.055655,0.00712,0.106623

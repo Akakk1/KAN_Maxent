@@ -1,0 +1,26 @@
+{
+  "protocol": "standard_kan_e2e_can20",
+  "doc": "docs/standard_kan_e2e_can20_protocol.md",
+  "formula": "eta = KAN_[P,h,1](T(x)) + X_cat @ beta",
+  "kan_input": "continuous_z",
+  "residual_additive_skip": false,
+  "warm_start_additive": false,
+  "regions": [
+    "CAN"
+  ],
+  "seeds": [
+    0
+  ],
+  "models": [
+    "additive_kan_ipp",
+    "standard_kan_ipp"
+  ],
+  "hidden_width": 4,
+  "adam_steps": 150,
+  "adam_lr": 0.03,
+  "lbfgs_steps": 10,
+  "lambda_kan": 0.0001,
+  "created_utc": "2026-07-27T10:57:33.926125+00:00",
+  "runtime_s": 962.2636905830004,
+  "n_metric_rows": 40
+}

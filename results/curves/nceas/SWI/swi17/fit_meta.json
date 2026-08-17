@@ -1,0 +1,62 @@
+{
+  "region": "SWI",
+  "species_id": "swi17",
+  "taxon_group": "tree",
+  "n_po": 458,
+  "n_bg": 50000,
+  "n_PA": 10013,
+  "runtime_s": 10.100642580997373,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "bcc",
+    "ccc",
+    "ddeg",
+    "nutri",
+    "pday",
+    "precyy",
+    "sfroyy",
+    "slope",
+    "sradyy",
+    "swb",
+    "topo"
+  ],
+  "categorical": [
+    "calc"
+  ],
+  "scaler_mean": [
+    10.38469618296405,
+    18.003725871021445,
+    2178.387332038527,
+    11.66387936641704,
+    37.75278449403464,
+    1419.4790518847358,
+    0.8184628800190257,
+    189.05222164968885,
+    16879.294878909193,
+    -28.675730310357128,
+    -1.6523841610844663
+  ],
+  "scaler_scale": [
+    21.063122095693696,
+    30.526303287952892,
+    966.3922986416069,
+    8.85456026440301,
+    5.070161026516312,
+    353.0386865052688,
+    2.4652932754269377,
+    142.68096332410985,
+    3587.7423655014604,
+    94.24253079030373,
+    120.78201567829579
+  ],
+  "sample_reason": "reexport"
+}

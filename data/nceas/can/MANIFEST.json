@@ -1,0 +1,52 @@
+{
+  "region": "CAN",
+  "disdat_version": "1.1.0",
+  "n_species": 20,
+  "species_ids": [
+    "can01",
+    "can02",
+    "can03",
+    "can04",
+    "can05",
+    "can06",
+    "can07",
+    "can08",
+    "can09",
+    "can10",
+    "can11",
+    "can12",
+    "can13",
+    "can14",
+    "can15",
+    "can16",
+    "can17",
+    "can18",
+    "can19",
+    "can20"
+  ],
+  "n_po_total": 5063,
+  "n_bg_total": 50000,
+  "groups": [
+    "bird"
+  ],
+  "multi_group_pa": false,
+  "presence_range": [
+    16,
+    740
+  ],
+  "covariates": {
+    "continuous": [
+      "alt",
+      "asp2",
+      "ontprec",
+      "ontslp",
+      "onttemp",
+      "watdist"
+    ],
+    "categorical": [
+      "ontveg"
+    ]
+  },
+  "estimand": "global_conditional_density",
+  "integration_support": "full_background_50k"
+}

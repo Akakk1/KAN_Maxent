@@ -1,0 +1,51 @@
+{
+  "region": "AWT",
+  "species_id": "awt26",
+  "taxon_group": "plant",
+  "n_po": 34,
+  "n_bg": 50000,
+  "n_PA": 102,
+  "runtime_s": 7.745791077999456,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "bc04",
+    "bc05",
+    "bc06",
+    "bc12",
+    "bc15",
+    "slope",
+    "topo",
+    "tri"
+  ],
+  "categorical": [],
+  "scaler_mean": [
+    0.9604710590569814,
+    30.05030818550926,
+    12.762875447685778,
+    1988.27701163209,
+    91.36455210456889,
+    14.282736479345063,
+    45.05228444657633,
+    486.34602239696324
+  ],
+  "scaler_scale": [
+    0.08661530179462663,
+    1.3536044201394406,
+    2.0695492921462706,
+    764.4186890301161,
+    11.908099154396265,
+    15.975462971489097,
+    34.3709129920783,
+    466.76928831218635
+  ],
+  "sample_reason": "reexport"
+}

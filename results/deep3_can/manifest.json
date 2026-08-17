@@ -1,0 +1,29 @@
+{
+  "run_id": "deepkan_deep3_can20_fair_20260715",
+  "regions": [
+    "CAN"
+  ],
+  "seeds": [
+    0
+  ],
+  "models": [
+    "additive_kan_ipp",
+    "deep2_kan_ipp",
+    "deep3_kan_ipp"
+  ],
+  "architecture": "residual sum(phi)+mixer(phi)",
+  "deep3_hidden_width": 4,
+  "backend": "pykan.KANLayer",
+  "freeze_grid": true,
+  "disable_silu": true,
+  "warm_start_additive": true,
+  "freeze_edges": true,
+  "deep_optimizer": "lbfgs",
+  "lbfgs_steps": 12,
+  "protocol": "PO_random50k_to_PA",
+  "lambda_s": 0.01,
+  "deep_steps": 80,
+  "deep_lr": 0.05,
+  "n_rows": 60,
+  "created_unix": 1784119490.4044123
+}

@@ -1,0 +1,34 @@
+{
+  "protocol": "tgb_closure_v1",
+  "generated_utc": "20260809T161426Z",
+  "region": "NSW",
+  "species": [
+    "nsw04",
+    "nsw06",
+    "nsw09",
+    "nsw14",
+    "nsw16",
+    "nsw17",
+    "nsw18",
+    "nsw24",
+    "nsw28",
+    "nsw39",
+    "nsw43",
+    "nsw52"
+  ],
+  "lambda_star_path": "/mnt/x/MachineLearning/Baiology/SDM/KAN-Maxent/outputs/methodological_closure_full_v1/lambda_star.csv",
+  "models": [
+    "additive_kan_ipp",
+    "gam_ipp_same_basis",
+    "additive_kan_bce",
+    "maxnet_bg10k",
+    "maxnet_bg50k"
+  ],
+  "background_arms": [
+    "random_50k",
+    "tgb"
+  ],
+  "seed": 0,
+  "n_metric_rows": 120,
+  "outdir": "/mnt/x/MachineLearning/Baiology/SDM/KAN-Maxent/outputs/tgb_closure_v1"
+}

@@ -1,0 +1,21 @@
+{
+  "selected_vars": [
+    "bio6",
+    "bio11",
+    "bio12",
+    "bio13",
+    "bio3",
+    "bio4",
+    "bio5",
+    "bio14",
+    "bio15"
+  ],
+  "n_points": 8948,
+  "literature_forced": [
+    "bio6",
+    "bio11",
+    "bio12",
+    "bio13"
+  ],
+  "note": "Re-screened with literature priority on winter cold (bio6,11) + precip (bio12+). Kept same folds and points for consistency."
+}

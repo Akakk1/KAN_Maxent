@@ -1,0 +1,51 @@
+{
+  "region": "SA",
+  "species_id": "sa17",
+  "taxon_group": "plant",
+  "n_po": 37,
+  "n_bg": 50000,
+  "n_PA": 152,
+  "runtime_s": 6.4080952300028,
+  "fit_device": "cpu",
+  "device_policy": {
+    "request": "cpu",
+    "prefer_cpu_lbfgs": true,
+    "bootstrap_device": "inherit",
+    "fallback_events": [],
+    "cuda_available": true
+  },
+  "kan_converged": true,
+  "gam_converged": true,
+  "continuous": [
+    "sabio12",
+    "sabio15",
+    "sabio17",
+    "sabio18",
+    "sabio2",
+    "sabio4",
+    "sabio5",
+    "sabio6"
+  ],
+  "categorical": [],
+  "scaler_mean": [
+    2012.9523298904876,
+    53.57961084474763,
+    169.4939323543961,
+    391.4995180452573,
+    110.7387794089228,
+    1033.158405701899,
+    310.54567508156646,
+    158.20283505304627
+  ],
+  "scaler_scale": [
+    881.9195696881286,
+    23.075170390633108,
+    181.9566826019917,
+    220.28458452520744,
+    19.82141170028006,
+    824.771691628657,
+    42.695868834281825,
+    61.81007192477638
+  ],
+  "sample_reason": "reexport"
+}

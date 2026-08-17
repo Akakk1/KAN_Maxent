@@ -1,0 +1,25 @@
+# Conda environment for KAN-MaxEnt (CPU-friendly defaults).
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate kanmaxent
+#   pip install -e .
+#   pytest tests/ -q
+#
+# R (for maxnet baseline): install system R + packages maxnet, disdat
+#   see docs/r_dependencies.md
+
+name: kanmaxent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.24
+  - scipy=1.10
+  - pandas=2.0
+  - scikit-learn=1.3
+  - pytest>=7
+  - pip:
+      - torch>=2.0,<2.3
+      - pykan==0.2.8

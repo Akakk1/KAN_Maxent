@@ -1,0 +1,12 @@
+{
+  "source": "OSF https://osf.io/vdurx Models_prediction.zip / MaxNet/can*_maxnet.csv",
+  "n_species": 20,
+  "pearson_r_ours_maxnet_vs_valavi": 0.9834521696229879,
+  "spearman_rho": 0.9729323308270676,
+  "valavi_mean_auc": 0.5922349106784284,
+  "ours_mean_auc": 0.5812725916540555,
+  "mean_abs_delta_auc": 0.017894187022304327,
+  "max_abs_delta_auc": 0.09725320464127168,
+  "pearson_r_kan_ipp_vs_valavi_maxnet": 0.9907718244845849,
+  "dod_r_gt_0.90": true
+}

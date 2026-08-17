@@ -1,0 +1,15 @@
+{
+  "source_path": "KAN_Ginkgo/data/ginkgo_training_with_coords.csv",
+  "dest_path": "data/ginkgo/ginkgo_training_with_coords.csv",
+  "copied_at": "2026-07-14",
+  "sha256": "b7dd1e870066d935eb7817aadf88fb6d7ed514a506d6394f27e4d56d85223c1d",
+  "n_rows_expected": 8948,
+  "n_presence_expected": 238,
+  "n_background_expected": 8710,
+  "env_columns": [
+    "bio6", "bio11", "bio12", "bio13", "bio2",
+    "bio3", "bio4", "bio5", "bio14", "bio15"
+  ],
+  "folds": [0, 1, 2, 3, 4],
+  "notes": "Read-only copy for Phase 1. Do not modify KAN_Ginkgo/."
+}

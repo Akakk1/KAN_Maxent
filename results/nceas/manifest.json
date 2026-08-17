@@ -1,0 +1,53 @@
+{
+  "run_id": "nceas_full_20260714_phase3",
+  "regions": [
+    "AWT",
+    "CAN",
+    "NSW",
+    "NZ",
+    "SA",
+    "SWI"
+  ],
+  "seeds": [
+    0
+  ],
+  "models": [
+    "kan_ipp",
+    "gam_ipp",
+    "kan_bce",
+    "maxnet"
+  ],
+  "main": {
+    "background_scheme": "random_50k",
+    "integration_support": "full_background_50k",
+    "metrics": "metrics_all.csv",
+    "n_rows": 904,
+    "n_species": 226
+  },
+  "tgb_sensitivity": {
+    "region": "NSW",
+    "species": [
+      "nsw04",
+      "nsw06",
+      "nsw09",
+      "nsw14",
+      "nsw16",
+      "nsw17",
+      "nsw18",
+      "nsw24",
+      "nsw28",
+      "nsw39",
+      "nsw43",
+      "nsw52"
+    ],
+    "background_scheme": "tgb",
+    "integration_support": "tgb_other_po_same_group",
+    "metrics": "metrics_tgb.csv",
+    "n_rows": 48,
+    "definition": "other_po_same_group_excludes_focal"
+  },
+  "estimand_main": "global_conditional_density",
+  "lambda_policy": "frozen_or_po4fold",
+  "valavi_dod_all_pass": true,
+  "created_unix": 1784039253.5380266
+}
