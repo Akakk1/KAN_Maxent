@@ -49,7 +49,6 @@ output/
 # Accidental lab dumps
 docs/plans/
 docs/reports/
-MS_*.md
 SI/versions/
 **/_archive*/
 **/_archive_legacy/
