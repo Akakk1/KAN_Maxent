@@ -1164,9 +1164,9 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
     rows = []
     for model, lab in [
         ("additive_kan_ipp", "B-spline IPP"),
-        ("gam_ipp_same_basis", "同基 GAM-IPP"),
-        ("maxnet_bg10k", "maxnet（背景上限 10,000）"),
-        ("maxnet_bg50k", "maxnet（背景上限 50,000）"),
+        ("gam_ipp_same_basis", "same-basis GAM-IPP"),
+        ("maxnet_bg10k", "maxnet (bg ≤ 10,000)"),
+        ("maxnet_bg50k", "maxnet (bg ≤ 50,000)"),
     ]:
         a = df_a[df_a.model == model]
         a = a[np.isfinite(a.auc_roc)]
@@ -1187,10 +1187,10 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
         )
     add = wide.set_index(["region", "species_id"])["additive_kan_ipp"]
     for stage, model, lab in [
-        ("B", "deep2_rphi", "Deep-2（边输出）"),
-        ("B", "deep2_rx", "Deep-2（缩放协变量）"),
-        ("C", "deep3_rphi", "Deep-3（边输出）"),
-        ("C", "deep3_rx", "Deep-3（缩放协变量）"),
+        ("B", "deep2_rphi", "Deep-2 (Rφ)"),
+        ("B", "deep2_rx", "Deep-2 (Rx)"),
+        ("C", "deep3_rphi", "Deep-3 (Rφ)"),
+        ("C", "deep3_rx", "Deep-3 (Rx)"),
     ]:
         s = deep_species_mean(df, stage, model)
         common = s.index.intersection(add.index)
@@ -1214,7 +1214,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
     e2e_c = e2e.loc[common]
     rows.append(
         {
-            "model": "端到端标准 KAN",
+            "model": "end-to-end standard KAN",
             "model_id": "standard_kan_ipp_itt",
             "n": int(e2e_c.auc_roc.notna().sum()),
             "AUC_mean": e2e_c.auc_roc.mean(),
@@ -1250,7 +1250,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
         row3, row4 = {"region": reg}, {"region": reg}
         for model, col in [
             ("additive_kan_ipp", "B-spline IPP"),
-            ("gam_ipp_same_basis", "同基 GAM-IPP"),
+            ("gam_ipp_same_basis", "same-basis GAM-IPP"),
             ("maxnet_bg10k", "maxnet"),
         ]:
             sub = df_a[(df_a.model == model) & (df_a.region == reg)]
@@ -1266,7 +1266,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
     mu, lo, hi = _boot_mean_ci(d.values)
     pairs.append(
         {
-            "contrast": "B-spline IPP − 同基 GAM-IPP",
+            "contrast": "B-spline IPP − same-basis GAM-IPP",
             "mean_delta_AUC": mu,
             "ci_lo": lo,
             "ci_hi": hi,
@@ -1277,7 +1277,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
     mu, lo, hi = _boot_mean_ci(d.values)
     pairs.append(
         {
-            "contrast": "B-spline IPP − maxnet（背景上限 10,000）",
+            "contrast": "B-spline IPP − maxnet (bg ≤ 10,000)",
             "mean_delta_AUC": mu,
             "ci_lo": lo,
             "ci_hi": hi,
@@ -1285,10 +1285,10 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
         }
     )
     for stage, model, lab in [
-        ("B", "deep2_rphi", "Deep-2（边输出） − 加性"),
-        ("B", "deep2_rx", "Deep-2（缩放协变量） − 加性"),
-        ("C", "deep3_rphi", "Deep-3（边输出） − 加性"),
-        ("C", "deep3_rx", "Deep-3（缩放协变量） − 加性"),
+        ("B", "deep2_rphi", "Deep-2 (Rφ) − Additive"),
+        ("B", "deep2_rx", "Deep-2 (Rx) − Additive"),
+        ("C", "deep3_rphi", "Deep-3 (Rφ) − Additive"),
+        ("C", "deep3_rx", "Deep-3 (Rx) − Additive"),
     ]:
         s = deep_species_mean(df, stage, model)
         add_s = wide.set_index(["region", "species_id"]).additive_kan_ipp
@@ -1305,7 +1305,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
     mu, lo, hi = _boot_mean_ci(dd)
     pairs.append(
         {
-            "contrast": "端到端标准 KAN − maxnet",
+            "contrast": "end-to-end standard KAN − maxnet",
             "mean_delta_AUC": mu,
             "ci_lo": lo,
             "ci_hi": hi,
@@ -1336,7 +1336,7 @@ def write_si_tables(df: pd.DataFrame, wide: pd.DataFrame) -> None:
         columns={
             "species_id": "species",
             "additive_kan_ipp": "B-spline IPP",
-            "gam_ipp_same_basis": "同基 GAM-IPP",
+            "gam_ipp_same_basis": "same-basis GAM-IPP",
             "maxnet_bg10k": "maxnet",
         }
     ).sort_values("species")
