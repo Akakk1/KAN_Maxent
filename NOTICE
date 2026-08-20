@@ -3,5 +3,4 @@ different licences. The root MIT licence applies to the software and
 author-generated documentation, figures, and derived metric tables.
 It does **not** apply to files under `data/`.
 
-See `README.md` (Licence section), `data/LICENSE`, `data/nceas/LICENSE`,
-and `data/ginkgo/LICENSE`.
+See `README.md` (Licence section), `data/LICENSE`, and `data/nceas/LICENSE`.

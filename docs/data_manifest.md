@@ -40,7 +40,7 @@ Typical files per region: `{REG}_po.csv`, `{REG}_pa*.csv`, `{REG}_env*.csv`, `{R
 ## Optional / not shipped
 
 - Valavi SI zip and OSF MaxNet prediction dumps (lab backup only).  
-- Ginkgo spatial CV data: optional under `data/ginkgo/`.
+- Ginkgo spatial-CV tables are not included in this package.
 
 ## Loader
 

@@ -1,7 +1,7 @@
 # Data
 
-**Licences are not MIT.** See [`LICENSE`](LICENSE) in this folder, plus
-`nceas/LICENSE` and `ginkgo/LICENSE`.
+**`data/nceas/` is not MIT.** It remains [CC BY-NC 4.0](nceas/LICENSE)
+(Elith et al. 2020). See also [`LICENSE`](LICENSE) in this folder.
 
 ## In this package (tracked)
 
@@ -23,11 +23,8 @@ Six regions (AWT, CAN, NSW, NZ, SA, SWI) with PO, PA, environment tables, and 50
 **Cite:** Elith et al. (2020) *Biodiversity Informatics*,
 doi:10.17161/bi.v15i2.13384; Valavi et al. (2022) *Ecological Monographs*.
 
-### `ginkgo/` — optional legacy
-
-Single-species table for historical spatial-CV experiments. **Not required**
-for main NCEAS claims. Coordinates from GBIF (mixed dataset licences);
-bioclim columns from WorldClim 2.1 (CC BY-SA 4.0). See `ginkgo/LICENSE`.
+Ginkgo occurrence tables are **not** shipped (not used for the NCEAS
+analyses in this package).
 
 ## Not in this package (download if needed)
 
@@ -35,7 +32,6 @@ bioclim columns from WorldClim 2.1 (CC BY-SA 4.0). See `ginkgo/LICENSE`.
 |:------|:--------|:------|
 | Valavi DataS1 zip / `background_50k` originals | Provenance / re-extract | Large; lab backup only |
 | OSF MaxNet prediction CSVs | Pipeline alignment checks | Optional `compare_valavi_maxnet.py` |
-| WorldClim rasters | Ginkgo maps | Not used for NCEAS tables |
 
 ## Integrity
 

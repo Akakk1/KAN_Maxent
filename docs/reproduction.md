@@ -66,10 +66,9 @@ Does not overwrite `SI/SI.md` prose.
 
 | Path | Content |
 |:-----|:--------|
-| `data/nceas/{awt,can,nsw,nz,sa,swi}/` | PO / PA / BG per region |
-| `data/ginkgo/` | Optional Ginkgo table |
+| `data/nceas/{awt,can,nsw,nz,sa,swi}/` | PO / PA / BG per region (**CC BY-NC 4.0**, Elith et al. 2020) |
 
-Cite Elith et al. (2020) and Valavi et al. (2022) for NCEAS.
+Cite Elith et al. (2020) and Valavi et al. (2022). Do not treat these tables as MIT.
 
 ## Protocol notes
 

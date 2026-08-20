@@ -87,9 +87,8 @@ Long runs write under `outputs/` (gitignored). See `docs/reproduction.md`.
 | Material | Licence |
 |:---------|:--------|
 | Python package, scripts, tests, docs authored here | [MIT](LICENSE) |
-| `data/nceas/` (Elith et al. 2020 tables) | [CC BY-NC 4.0](data/nceas/LICENSE) — attribution required; **no commercial use** |
-| `data/ginkgo/` (optional) | Mixed GBIF + WorldClim 2.1 (CC BY-SA); [not MIT](data/ginkgo/LICENSE) |
-| Author-generated `results/` and `SI/tables/` (metrics, not occurrence coordinates) | MIT, without changing CC BY-NC terms on the source tables |
+| `data/nceas/` (Elith et al. 2020 tables, required for reproduction) | [CC BY-NC 4.0](data/nceas/LICENSE) — cite Elith et al.; **non-commercial only** |
+| Author-generated `results/` and `SI/tables/` (metrics, not occurrence coordinates) | MIT, without changing CC BY-NC terms on the source NCEAS tables |
 
 The root MIT file does **not** relicense `data/`. Redistributing this repository
 commercially, or stripping the NC restriction from the NCEAS CSVs, would
