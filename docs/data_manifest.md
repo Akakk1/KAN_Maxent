@@ -1,6 +1,6 @@
 # Data manifest & evaluation contract
 
-**Primary benchmark:** NCEAS six-region presence-only → independent PA (Elith et al. 2020; Valavi et al. 2021/2022).
+**Primary benchmark:** NCEAS six-region presence-only → independent PA (Elith et al. 2020, **CC BY-NC 4.0**; Valavi et al. 2022). Data under `data/nceas/` are not MIT; see `data/nceas/LICENSE`.
 
 ## Estimand
 

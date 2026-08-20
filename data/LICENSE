@@ -1,0 +1,15 @@
+Third-party data in this directory is **not** licensed under the repository MIT
+licence.
+
+| Path | Content | Licence | Cite |
+|:-----|:--------|:--------|:-----|
+| `nceas/` | NCEAS six-region PO / PA / environment / background tables | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) | Elith et al. (2020), doi:10.17161/bi.v15i2.13384; Valavi et al. (2022) |
+| `ginkgo/` | GBIF-derived ginkgo occurrences + WorldClim 2.1 covariates | mixed; **not MIT** (see `ginkgo/LICENSE`) | GBIF; Fick & Hijmans (2017) |
+
+Redistribution of `nceas/` must retain attribution and the **non-commercial**
+restriction. Do not relicense those files as MIT, Apache-2.0, or any licence
+that permits commercial use.
+
+Author-generated summaries that do **not** copy occurrence coordinates
+(`results/`, `SI/tables/`) are released with the software (MIT), without
+removing the CC BY-NC terms that still apply to the underlying NCEAS tables.

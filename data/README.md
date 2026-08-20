@@ -1,5 +1,8 @@
 # Data
 
+**Licences are not MIT.** See [`LICENSE`](LICENSE) in this folder, plus
+`nceas/LICENSE` and `ginkgo/LICENSE`.
+
 ## In this package (tracked)
 
 ### `nceas/` — primary benchmark
@@ -14,11 +17,17 @@ Six regions (AWT, CAN, NSW, NZ, SA, SWI) with PO, PA, environment tables, and 50
 
 **Skip rule:** species with n_PO &lt; 5 are skipped (recorded in metrics).
 
-**Cite:** Elith et al. (2020) *Biodiversity Informatics*; Valavi et al. (2021/2022) *Ecological Monographs* NCEAS reanalysis and DataS1.
+**Licence:** [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+(Elith et al. 2020). Non-commercial use only; keep attribution.
+
+**Cite:** Elith et al. (2020) *Biodiversity Informatics*,
+doi:10.17161/bi.v15i2.13384; Valavi et al. (2022) *Ecological Monographs*.
 
 ### `ginkgo/` — optional legacy
 
-Single-species table for historical spatial-CV experiments. **Not required** for main NCEAS claims or for the default smoke script’s scientific narrative (tests may still reference it if present).
+Single-species table for historical spatial-CV experiments. **Not required**
+for main NCEAS claims. Coordinates from GBIF (mixed dataset licences);
+bioclim columns from WorldClim 2.1 (CC BY-SA 4.0). See `ginkgo/LICENSE`.
 
 ## Not in this package (download if needed)
 

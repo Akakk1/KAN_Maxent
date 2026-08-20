@@ -6,10 +6,11 @@ Presence-only species distribution models with learnable B-spline edge functions
 **Finding in brief:** additive B-splines match same-basis GAMs and slightly exceed
 maxnet; multilayer / residual deep interactions do not improve independent PA AUC.
 
-**License:** MIT
+**Licence (split):** software MIT; NCEAS tables under `data/nceas/` are
+**CC BY-NC 4.0** (not MIT). See [Licence](#licence) below.
 
 This repository is a **reproduction package**: code, environment, input data layout,
-frozen metrics, and figure assets. Manuscript text is not included.
+frozen metrics, and figure assets.
 
 ## Install
 
@@ -81,11 +82,24 @@ Long runs write under `outputs/` (gitignored). See `docs/reproduction.md`.
 | `results/curves/` | Curve agreement + φ CSVs |
 | `results/tgb_closure_v1/` | Target-group background |
 
+## Licence
+
+| Material | Licence |
+|:---------|:--------|
+| Python package, scripts, tests, docs authored here | [MIT](LICENSE) |
+| `data/nceas/` (Elith et al. 2020 tables) | [CC BY-NC 4.0](data/nceas/LICENSE) — attribution required; **no commercial use** |
+| `data/ginkgo/` (optional) | Mixed GBIF + WorldClim 2.1 (CC BY-SA); [not MIT](data/ginkgo/LICENSE) |
+| Author-generated `results/` and `SI/tables/` (metrics, not occurrence coordinates) | MIT, without changing CC BY-NC terms on the source tables |
+
+The root MIT file does **not** relicense `data/`. Redistributing this repository
+commercially, or stripping the NC restriction from the NCEAS CSVs, would
+violate Elith et al. (2020). Details: `NOTICE`, `data/LICENSE`.
+
 ## Citation
 
-- NCEAS data: Elith et al. (2020); Valavi et al. (2022)
+- NCEAS data: Elith et al. (2020), doi:10.17161/bi.v15i2.13384 (CC BY-NC 4.0); Valavi et al. (2022)
 - KAN: Liu et al. (2025)
-- Code: cite this repository (commit hash)
+- Code: this repository (tag `ms-submission`)
 
 ## AI use statement
 

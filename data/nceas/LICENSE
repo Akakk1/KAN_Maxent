@@ -1,0 +1,30 @@
+NCEAS six-region presence-only / presence–absence benchmark tables
+=================================================================
+
+These files are a working copy of the dataset described in:
+
+  Elith, J., et al. (2020). Presence-only and presence-absence data for
+  comparing species distribution modeling methods. *Biodiversity Informatics*
+  15(2): 69–80. https://doi.org/10.17161/bi.v15i2.13384
+
+The article and associated data are licensed under Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0):
+
+  https://creativecommons.org/licenses/by-nc/4.0/
+
+Copyright remains with the original authors (Elith et al.). First publication
+rights: *Biodiversity Informatics*.
+
+You may share and adapt the material for **non-commercial** purposes, with
+attribution. You may **not** use it for commercial purposes. You may **not**
+apply a licence (including the MIT licence of this repository's software) that
+would allow recipients to use these data commercially.
+
+Protocol notes and independent-PA evaluation follow Valavi et al. (2022),
+*Ecological Monographs*, doi:10.1002/ecm.1486. That paper's code and OSF
+prediction dumps are **not** redistributed here; optional alignment summaries
+under `can/valavi_*` are author-computed comparison statistics, not the OSF
+prediction files.
+
+Full legal code of CC BY-NC 4.0:
+  https://creativecommons.org/licenses/by-nc/4.0/legalcode

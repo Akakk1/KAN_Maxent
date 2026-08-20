@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Auditable additive B-spline + discrete IPP for presence-only SDM (Deep residual probe optional)"
 readme = "README.md"
 license = { text = "MIT" }
+# Python package only. data/nceas/ is CC BY-NC 4.0 (see data/nceas/LICENSE).
 requires-python = ">=3.10"
 dependencies = [
     "torch>=2.0",

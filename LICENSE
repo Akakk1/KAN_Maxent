@@ -2,6 +2,11 @@ MIT License
 
 Copyright (c) 2026 KAN-MaxEnt contributors
 
+NOTE: This MIT licence covers the software and author-generated
+documentation, figures, and derived metric tables. Third-party data
+under data/ (especially data/nceas/, CC BY-NC 4.0) is excluded.
+See NOTICE and data/LICENSE.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
